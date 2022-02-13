@@ -189,14 +189,6 @@ button:focus{
 	border-radius: 4px;
 }
 
-.navbar-expand-lg .navbar-nav .dropdown-menu{
-	border: none;
-	 box-shadow: 2px 5px 6px rgba(0,0,0,0.5);
-}
-
-.navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
-	background: #2b8600;
-	color: #ffffff;
 }
 .navbar-light .navbar-toggler:hover{
 	background: #2b8600;
@@ -293,7 +285,8 @@ button:focus{
 }
 .cover-slides p{
 	font-size: 18px;
-	color: #fff;
+	color: rgb(255, 255, 255);
+    
 }
 .slides-pagination a{
 	border: 2px solid #ffffff;
@@ -302,7 +295,21 @@ button:focus{
 	background: #2b8600;
 	border: 2px solid #2b8600;
 }
-
+/*------------------------------------------------------------------
+    Creator
+-------------------------------------------------------------------*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+  }
+  .name{
+      text-align: center;
+  }
+  .creat{
+      text-align: center;
+  }
 /*------------------------------------------------------------------
     About
 -------------------------------------------------------------------*/
@@ -773,10 +780,6 @@ button:focus{
 	font-size: 18px;
 }
 
-.stuff-box{
-	padding: 70px 0px;
-}
-
 .our-team{
     border: 2px solid #8dd072;
     border-radius: 0px;
@@ -870,16 +873,6 @@ button:focus{
     .our-team{ margin-bottom: 30px; }
 }
 
-
-.reservation-box{
-	padding: 70px 0px;
-}
-
-.reservation-box h3{
-	padding: 0px 15px;
-	margin-bottom: 20px;
-	font-weight: 600;
-}
 
 .help-block ul li{
 	color: red;
