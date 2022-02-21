@@ -304,10 +304,23 @@ button:focus{
     margin-right: auto;
     border-radius: 100px;
   }
+  .creadit{
+    padding-left: 597px;
+    padding-right: 597px;  
+  }
   .name{
       text-align: center;
   }
   .creat{
+      text-align: center;
+  }
+  .creator{
+    border-radius: 50%;
+    background: #48ff00;
+    box-shadow:  23px 23px 46px #5a8549,
+                 -23px -23px 46px #c0ff9b;
+  }
+  .info{
       text-align: center;
   }
 /*------------------------------------------------------------------
